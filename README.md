@@ -1,1 +1,1 @@
-The coastal erosion data is not posted publically.  With the data files, you run Data loader.R first to create an RDS file called frame.  Next, run the Dimension reduction.R file to reduce the dimension of frame and output the frame_reduced RDS file.
+The coastal erosion data is not posted publically.  If you have the data files, you would run Data loader.R first to load the data and create an RDS file called frame.  Next, run the Dimension reduction.R file to reduce the dimension of frame and output the frame_reduced RDS file.
