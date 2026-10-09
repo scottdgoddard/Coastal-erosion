@@ -6,6 +6,7 @@ options(expressions = 50000)
 #potentially a Bayesian neural network, projective pursuit regression, and the 
 #whiteboard dimension reduction method. Also, maybe something involving a data manifold.
 library(data.table)
+library(here)
 #Created by the file Data loader.R
 frame <- readRDS(file=paste0(here(),"/frame"))
 
