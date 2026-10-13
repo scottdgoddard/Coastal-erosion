@@ -11,7 +11,7 @@ library(here)
 frame <- readRDS(file=paste0(here(),"/frame"))
 
 ### Apply cca
-library(mixOmics)
+#library(mixOmics)
 # subframe <- frame[,c(1:5,500:501,6,17)]#XWindv
 # frame_wide <- pivot_wider(subframe,
 #                           names_from="set_index",
