@@ -2,7 +2,7 @@ library(mice)
 library(brms)
 library(here)
 df_pls <- readRDS(file=paste0(here(),"/df_pls"))
-df_pls$stamp <- as.numeric(format(as.POSIXct(df_pls$stamp), "%Y"))
+df_pls$stamp <- as.numeric(format(as.POSIXct(df_pls$stamp,origin="1970-01-01"), "%Y"))
 nco <- 1
 
 ##########################
