@@ -86,4 +86,4 @@ formula_1.0 <- bf(mvbind(EPR_1,EPR_2,EPR_3,EPR_4,EPR_5,EPR_6,EPR_7,EPR_8,EPR_9,
                          EPR_161)~XWindv_1 + YWindv_1 + aice_1 + Hsig_1 + RTpeak_1 + 
                     Tm01_1 + Dspr_1 + WavePower_1 + AirT_1 + SeaT_1 + (1|stamp)) +
   set_rescor(TRUE)
-(fit_1.0 <- brm(formula_1.0,data=df_pls_imp1,family=gaussian())
+(fit_1.0 <- brm(formula_1.0,data=df_pls_imp1,family=gaussian()))
