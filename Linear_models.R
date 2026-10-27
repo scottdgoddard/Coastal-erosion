@@ -10,9 +10,9 @@ nco <- 1
 ##########################
 
 #Commented out in order to not always re-run when I run this script
-df_pls_mice <- mice(df_pls, m=5, method="pmm", seed=123) #TODO check that the arguments here make sense (including defaults)
-df_pls_imp1 <- complete(df_pls_mice,1)
-saveRDS(df_pls_imp1,file=paste0(here(),"/df_pls_imp1"))
+#df_pls_mice <- mice(df_pls, m=5, method="pmm", seed=123) #TODO check that the arguments here make sense (including defaults)
+#df_pls_imp1 <- complete(df_pls_mice,1)
+#saveRDS(df_pls_imp1,file=paste0(here(),"/df_pls_imp1"))
 df_pls_imp1 <- readRDS(file=paste0(here(),"/df_pls_imp1"))
 
 ################################
